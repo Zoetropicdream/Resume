@@ -1,0 +1,118 @@
+body {
+	background: #fff;
+	margin: 20;
+	padding: 10;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	padding-left:40;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	padding-left:40px;
+	width: 95%;
+}
+
+ul {
+	padding-left: 80px;
+}
+
+ .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.headline {
+	text-align: center;
+}
+
+.portfolio {
+	position:relative;
+    padding-left:40px; 
+    display: inline-block;
+    width: 95%;
+	border:1px solid grey;
+}
+
+
+.col-sm-3 {
+	border:1px solid grey;
+	position:relative;
+	margin:10px;
+	width:210px;
+
+}
+
+
+
+.portfolio img {
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+}
+ 
+.container img{
+  width:200px;
+  height:200px;
+  border:1px solid grey;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+  float:left;
+  
+}
+
+ .overlay {
+  width: 200px;
+  height:200px;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  top:10px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  z-index: 70;
+  margin:0;
+
+}
+
+.container .overlay:hover {
+  opacity: 1;
+
+}
+
+
+div.d {
+	float:left;
+}
+
+.row2 {
+	text-align: center;
+}
+
+.container2 {
+  width:95%;
+  height:300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  position: relative;
+}
+
+
+
+
+
+
+
